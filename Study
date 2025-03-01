@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICS Mathematics - Punjab Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ICS Mathematics - Punjab Board</h1>
+        <p>Select a book to view past papers.</p>
+    </header>
+
+    <section id="books-list">
+        <h2>Books</h2>
+        <ul>
+            <li><button onclick="showPapers('book1')">Mathematics Part 1</button></li>
+            <li><button onclick="showPapers('book2')">Mathematics Part 2</button></li>
+        </ul>
+    </section>
+
+    <section id="papers-list" style="display: none;">
+        <h2>Past Papers</h2>
+        <ul id="papers">
+            <!-- Past papers will be loaded here -->
+        </ul>
+        <button onclick="goBack()">Back to Books</button>
+    </section>
+
+    <footer>
+        <p>Created for personal use | ICS Mathematics</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html
